@@ -6,6 +6,7 @@ public class Main {
         Boss boss = new Boss();
         boss.setBossHealth(300);
         boss.setBossDamage(50);
+        boss.weapon.setTitleWeapon("uidj");
 
         Skeleton skeleton1 = new Skeleton();
         skeleton1.setSkeletonHealth(75);
@@ -25,9 +26,9 @@ public class Main {
 
         System.out.println(boss.info());
 
-        System.out.println(skeleton1.infoSk());
+        System.out.println(skeleton1.info());
 
-        System.out.println(skeleton2.infoSk());
+        System.out.println(skeleton2.info());
 
 
     }
