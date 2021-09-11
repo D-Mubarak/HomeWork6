@@ -10,8 +10,9 @@ public class Skeleton extends Boss {
     public void setArrows(int arrows) {
         this.arrows = arrows;
     }
+
     @Override
-    public String info(){
+    public String info() {
         return "Skeleton Health = " + getSkeletonHealth() + " Skeleton Damage = " + getSkeletonDamage() + " | arrows " + arrows;
     }
 }
